@@ -1,6 +1,6 @@
 (footprint "BGA6N40P3X2_122X88X62N" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62379EDA)
+  (tedit 6238761E)
   (attr through_hole)
   (fp_text reference "REF**" (at 0.082 -1.9178) (layer "F.SilkS")
     (effects (font (size 0.48 0.48) (thickness 0.15)))
@@ -34,7 +34,12 @@
   (pad "B2" smd circle (at 0.2 0) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 04cf2f2c-74bf-400d-b4f6-201720df00ed))
   (pad "C1" smd circle (at -0.2 0.4) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1bdd5841-68b7-42e2-9447-cbdb608d8a08))
   (pad "C2" smd circle (at 0.2 0.4) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aeb03be9-98f0-43f6-9432-1bb35aa04bab))
-  (model "/Users/tobias/Documents/GitHub/ki-lib/3D/Converter_DCDC.3dshapes/TPS61099xYFFT.step"
+  (model "${KIPRJMOD}/3d-models/TPS61099xYFFT.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model ":ki-lib_dir:Converter_DCDC.3dshapes/TPS61099xYFFT.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
