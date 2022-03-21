@@ -19,8 +19,16 @@ Footprint Lib
 3D
 * add folder with .3dshapes extension
 * put wrl or step in folder
-* add footprint in footprint editor
+* add 3D in footprint editor
 * click on footprint - click key 'e'
 * 3D option
-* naviagte to 3D
+* path to 3D
+  * ${KIPRJMOD}/3d-models/...
+  * ki-lib_dir:xxx.3dshapes/...
 * rotate and move to fit pcb footprint
+
+ki-lib_dir must be defines in the preferendes - configure path - 3d path search Alias
+with the path to the ki-lib git folder.
+
+3d path configuration Forum post:
+https://forum.kicad.info/t/help-understanding-3d-search-paths-and-environment-variables/20726/4 
