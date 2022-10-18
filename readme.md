@@ -24,7 +24,7 @@ Footprint Lib
 * 3D option
 * path to 3D
   * ${KIPRJMOD}/3d-models/...
-  * ki-lib_dir:xxx.3dshapes/...
+  * ki-lib_dir:xxx.3dshapes/... (click on folder and browse to location should fill in the ki-lib_dir alias)
 * rotate and move to fit pcb footprint
 
 ki-lib_dir must be defines in the preferendes - configure path - 3d path search Alias
