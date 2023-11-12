@@ -6,7 +6,7 @@
     (property "Value" "IQS231A-00000000-TSR" (id 1) (at -15.24 -15.24 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "IQS231A-00000000-TSR:SOT95P280X100-6N" (id 2) (at 0 0 0)
+    (property "Footprint" "Sensor_Touch_custom:SOT95P280X100-6N" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
