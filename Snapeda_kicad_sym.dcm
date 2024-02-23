@@ -27,4 +27,11 @@ $CMP SFR10EZPJ101
 D
 F
 $ENDCMP
+#
+# TYPE-C-31-M-12
+#
+$CMP TYPE-C-31-M-12
+D
+F
+$ENDCMP
 #End Doc Library
