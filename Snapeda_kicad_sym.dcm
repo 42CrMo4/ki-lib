@@ -83,4 +83,11 @@ $CMP LM73100RPWR
 D
 F
 $ENDCMP
+#
+# UJ20-C-H-G-SMT-TR
+#
+$CMP UJ20-C-H-G-SMT-TR
+D
+F
+$ENDCMP
 #End Doc Library
