@@ -90,4 +90,11 @@ $CMP UJ20-C-H-G-SMT-TR
 D
 F
 $ENDCMP
+#
+# CP2105
+#
+$CMP CP2105
+D
+F
+$ENDCMP
 #End Doc Library
