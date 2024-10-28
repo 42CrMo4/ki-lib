@@ -104,4 +104,11 @@ $CMP BQ25185DLHR
 D
 F
 $ENDCMP
+#
+# RCWCTE
+#
+$CMP RCWCTE
+D
+F
+$ENDCMP
 #End Doc Library
