@@ -1,0 +1,39 @@
+name: KiCAD 3D Model Sync
+
+on:
+  push:
+    paths:
+      - '**/*.kicad_mod'
+  pull_request:
+    paths:
+      - '**/*.kicad_mod'
+
+jobs:
+  sync-3d-models:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        
+    - name: Run 3D model sync script
+      run: python .github/scripts/kicad-models-sync.py
+      
+    - name: Create Pull Request if needed
+      if: failure()  # Script exits with 1 if files were modified
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: 'chore: sync KiCAD 3D model configurations'
+        title: 'Sync KiCAD 3D model configurations'
+        body: |
+          This PR synchronizes 3D model configurations in KiCAD footprint files.
+          - Ensures project models (KIPRJMOD) match third-party models (KICAD_3RD_PARTY)
+          - Updates transformation parameters (offset, scale, rotate)
+        branch: fix/sync-kicad-models
+        delete-branch: true
