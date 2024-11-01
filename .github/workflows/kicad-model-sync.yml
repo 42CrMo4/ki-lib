@@ -23,7 +23,7 @@ jobs:
         python-version: '3.x'
         
     - name: Run 3D model sync script
-      run: python .github/scripts/kicad-models-sync.py
+      run: python .github/scripts/kicad-model-sync.py
       
     - name: Create Pull Request if needed
       if: failure()  # Script exits with 1 if files were modified
