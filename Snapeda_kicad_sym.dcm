@@ -132,4 +132,11 @@ $CMP USB4120-03-C_REVA
 D
 F
 $ENDCMP
+#
+# TYPE-C-31-M-29
+#
+$CMP TYPE-C-31-M-29
+D
+F
+$ENDCMP
 #End Doc Library
