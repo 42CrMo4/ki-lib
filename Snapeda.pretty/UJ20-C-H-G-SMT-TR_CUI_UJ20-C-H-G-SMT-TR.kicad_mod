@@ -75,12 +75,12 @@
     (solder_mask_margin 0.102) (tstamp 8394e867-3200-4063-8745-b4819e51419f))
   (pad "SH4" thru_hole oval (at 4.325 -3.045) (size 0.9 2.4) (drill oval 0.6 2.1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.102) (tstamp 68296f44-3471-4758-8db8-71defef9cbb9))
-  (model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/UJ20-C-H-G-SMT-TR.step"
+  (model "${KICAD_3RD_PARTY}/Snapeda.3dshapes/UJ20-C-H-G-SMT-TR.wrl"
     (offset (xyz 0 -4 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz -180 0 0))
   )
-  (model "${KIPRJMOD}/3d-models/UJ20-C-H-G-SMT-TR.step"
+  (model "${KIPRJMOD}/3d-models/UJ20-C-H-G-SMT-TR.wrl"
     (offset (xyz 0 -4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
