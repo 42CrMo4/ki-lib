@@ -21,8 +21,8 @@
   (pad "B5" smd rect (at 0.5 0.8 90) (size 2 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 126906ae-35d2-48a9-935d-a226e6163236))
   (pad "B9" smd rect (at -1.52 0.8 90) (size 2 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c21ba70a-7f8c-48d2-97f8-59e10d250eb9))
   (pad "B12" smd rect (at -2.75 0.8 90) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 85f4f7ce-df92-4a68-b68a-5412ed9b4aed))
-  (pad "S1" thru_hole oval (at -4.27 0 90) (size 1.7 1) (drill oval 1.2 0.5) (layers *.Cu *.Mask) (tstamp 265c70da-cee3-4207-9fa3-a47290af2c77))
-  (pad "S1" thru_hole oval (at 4.27 0 90) (size 1.7 1) (drill oval 1.2 0.5) (layers *.Cu *.Mask) (tstamp d706cc2a-7f4e-4d0c-b561-5218821a71e9))
+  (pad "S1" thru_hole oval (at -4.27 0 90) (size 1.7 1) (drill oval 1.2 0.5) (layers *.Cu *.Mask "F.Paste") (tstamp 265c70da-cee3-4207-9fa3-a47290af2c77))
+  (pad "S1" thru_hole oval (at 4.27 0 90) (size 1.7 1) (drill oval 1.2 0.5) (layers *.Cu *.Mask "F.Paste") (tstamp d706cc2a-7f4e-4d0c-b561-5218821a71e9))
   (model ":ki-lib_dir:Connector_USB_custom.3dshapes/GCT_USB4130GFC/USB4130-GF-C.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
