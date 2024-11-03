@@ -146,4 +146,11 @@ $CMP TYPE-C-31-M-31
 D
 F
 $ENDCMP
+#
+# TYPE-C-31-M-33
+#
+$CMP TYPE-C-31-M-33
+D
+F
+$ENDCMP
 #End Doc Library
