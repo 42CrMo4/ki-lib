@@ -34,4 +34,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/3d-models/USB-C-TH_TYPE-C-31-M-33.step"
+    (offset (xyz 0 -1.15 1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
