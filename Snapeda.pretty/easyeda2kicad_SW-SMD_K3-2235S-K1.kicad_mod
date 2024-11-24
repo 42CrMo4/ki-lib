@@ -52,4 +52,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/3d-models/SW-SMD_K3-2235S-K1.step"
+    (offset (xyz 0 0 -6.35))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
