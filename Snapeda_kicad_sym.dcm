@@ -153,4 +153,11 @@ $CMP TYPE-C-31-M-33
 D
 F
 $ENDCMP
+#
+# K3-2235S-K1
+#
+$CMP K3-2235S-K1
+D
+F
+$ENDCMP
 #End Doc Library
