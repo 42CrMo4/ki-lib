@@ -1,6 +1,7 @@
 (footprint "GLL1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 65D5144A)
+  (tags "UPDI SKEED REDFIT")
   (attr through_hole)
   (fp_text reference "REF**" (at -6.865 1.27 270) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
