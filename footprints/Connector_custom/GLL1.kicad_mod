@@ -115,7 +115,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/3d-models/490107670412.stp"
+  (model "${KIPRJMOD}/3d-models/490107670412.step"
     (offset (xyz -3 -1.27 5.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
