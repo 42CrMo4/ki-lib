@@ -216,4 +216,11 @@ $CMP LM66200DRLR
 D
 F
 $ENDCMP
+#
+# BHAA-3
+#
+$CMP BHAA-3
+D
+F
+$ENDCMP
 #End Doc Library
