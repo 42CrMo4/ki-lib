@@ -37,4 +37,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "${KIPRJMOD}/3d-models/STWD100NXWY3F.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
